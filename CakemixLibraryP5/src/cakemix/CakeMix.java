@@ -32,6 +32,29 @@ public class CakeMix {
 		project = proj;
 	}
 
+	
+	public void addData(String key, Object values) {
+		JSONArray jsonA = new JSONArray();
+		jsonA.put(values);
+		System.out.println(jsonA.toString());
+		
+		
+		  /*String result = "[";
+
+		  for (int i = 0; i < values.length; i++) {
+		    if (i == values.length - 1) {
+		      result += ""+values[i];
+		    } 
+		    else {
+		      result += values[i] + ",";
+		    }
+		  }
+
+		  result += "]";
+		  addData(key, result);*/
+		}
+	
+	
 	public void addData(String key, int value) {
 		addData(key,""+value);
 	}

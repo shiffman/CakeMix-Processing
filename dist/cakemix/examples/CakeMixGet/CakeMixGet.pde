@@ -1,3 +1,9 @@
+// Daniel Shiffman
+// CakeMix Library Example
+// January 2012
+
+// Demonstrating how to get from cakemix
+
 import cakemix.*;
 
 CakeMix mix;

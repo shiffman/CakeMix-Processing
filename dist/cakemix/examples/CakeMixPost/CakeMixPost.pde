@@ -1,3 +1,9 @@
+// Daniel Shiffman
+// CakeMix Library Example
+// January 2012
+
+// Demonstrating how to post to cakemix
+
 import cakemix.*;
 
 CakeMix mix;
